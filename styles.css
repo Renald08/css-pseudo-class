@@ -1,0 +1,100 @@
+body {
+    font-family: Georgia, serif;
+    background: url(Violet.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 20px;
+}
+
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    position: absolute;
+    margin: 80px 130px;
+    border-radius: 15px;
+    border: 2px solid #80267b;
+    background-color: #3c88da;
+    color: #5d0a68;
+    transition: all 0.3s ease;
+    font-family: Georgia, serif;
+
+}
+
+button:hover {
+    background-color: #4a87c9;
+    color: white;
+}
+
+button:active {
+    font-size: 18px;
+    color: #a01fb1;
+}
+
+
+input[type="text"] {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    transition: border-color 0.3s ease, color 0.3s ease;
+    width: 280px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #8eeaf1;
+    border-radius: 15px;
+    background-color: transparent;
+    font-size: 14px;
+}
+
+input[type="text"]:focus {
+    border-color: #007BFF;
+}
+
+input[type="text"]:focus::placeholder {
+    color: #14816a;
+}
+
+
+input[type="text"]:focus {
+    color: #12153b;
+}
+
+
+a {
+    text-decoration: none;
+    color: #070c53;
+    transition: all 0.3s ease;
+}
+
+h1{
+    color: #070c53;
+}
+
+a:hover {
+    text-decoration: underline;
+
+}
+
+a:active {
+    font-weight: bold; 
+}
+
+button {
+    transition: background-color 0.3s ease, font-size 0.3s ease, color 0.3s ease;
+}
+
+
+input[type="text"]::placeholder {
+    transition: color 0.2s ease;
+}
+
+
+a {
+    transition: color 0.2s ease, text-decoration 0.2s ease, font-weight 0.2s ease;
+}
